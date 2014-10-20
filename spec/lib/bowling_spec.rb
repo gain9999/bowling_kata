@@ -8,7 +8,7 @@ describe Bowling, "#score" do
     #	expect(bowling.score).to eq(10)
 	#end
 	it "should score 20 when a gutter is followed by rolls of 10 and 5 pins" do
-	    expect(bowling.score([10,8,1,2,8,5,4,10,10,10,5,5,10,10,0,0])).to eq(177)    
+	    expect(bowling.score([10,8,1,2,8,5,4,10,10,10,5,5,10,10,0,0])).to eq(0)    
 	end
 
 	it "should score 300 for all strike" do
